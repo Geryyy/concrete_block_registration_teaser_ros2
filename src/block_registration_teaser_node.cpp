@@ -15,15 +15,15 @@
 
 #include "concrete_block_perception/action/register_block.hpp"
 #include "concrete_block_perception/srv/register_block.hpp"
-#include "concrete_block_perception/utils/io_utils.hpp"
+#include "concrete_block_registration_teaser/io_utils.hpp"
 
 #include "concrete_block_registration_teaser/teaser_registration_pipeline.hpp"
-#include "concrete_block_perception/registration/registration_config.hpp"
-#include "concrete_block_perception/registration/ros_debug_helpers.hpp"
+#include "concrete_block_registration_teaser/registration_config.hpp"
+#include "concrete_block_registration_teaser/ros_debug_helpers.hpp"
 
 #include "pcd_block_estimation/utils.hpp"
 
-using namespace concrete_block_perception;
+using namespace concrete_block_registration_teaser;
 
 class BlockRegistrationTeaserNode : public rclcpp::Node
 {

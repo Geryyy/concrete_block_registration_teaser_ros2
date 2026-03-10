@@ -1,0 +1,6 @@
+[submodule "external/teaser-plusplus"]
+	path = external/teaser-plusplus
+	url = https://github.com/MIT-SPARK/TEASER-plusplus.git
+[submodule "external/pcd_block_estimation"]
+	path = external/pcd_block_estimation
+	url = https://github.com/Geryyy/pcd_block_estimation.git

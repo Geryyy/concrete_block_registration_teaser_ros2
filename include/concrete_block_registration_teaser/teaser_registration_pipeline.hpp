@@ -9,9 +9,9 @@
 
 #include "pcd_block_estimation/mask_projection.hpp"
 #include "pcd_block_estimation/template_utils.hpp"
-#include "concrete_block_perception/registration/block_registration_pipeline.hpp"
+#include "concrete_block_registration_teaser/registration_types.hpp"
 
-namespace concrete_block_perception
+namespace concrete_block_registration_teaser
 {
 
 class TeaserRegistrationPipeline
@@ -62,4 +62,4 @@ private:
   bool verbose_logs_{false};
 };
 
-}  // namespace concrete_block_perception
+}  // namespace concrete_block_registration_teaser

@@ -1,0 +1,13 @@
+# ROS/colcon build artifacts
+build/
+install/
+log/
+
+# Runtime dumps
+config/dump/
+
+# Generated registration templates (derived from CAD)
+config/templates/*.pcd
+config/templates/*.ply
+config/templates/*.yaml
+!config/templates/.gitignore

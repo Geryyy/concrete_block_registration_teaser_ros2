@@ -10,7 +10,7 @@
 using namespace open3d;
 using namespace pcd_block;
 
-namespace concrete_block_perception
+namespace concrete_block_registration_teaser
 {
 
 TeaserRegistrationPipeline::TeaserRegistrationPipeline(
@@ -304,4 +304,4 @@ Eigen::Matrix4d TeaserRegistrationPipeline::makeTransform(
   return T;
 }
 
-}  // namespace concrete_block_perception
+}  // namespace concrete_block_registration_teaser
